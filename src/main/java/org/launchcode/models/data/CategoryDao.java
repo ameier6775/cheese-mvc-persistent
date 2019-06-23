@@ -10,6 +10,4 @@ import javax.transaction.Transactional;
 @Transactional
 public interface CategoryDao extends CrudRepository<Category, Integer> {
 
-
-
 }

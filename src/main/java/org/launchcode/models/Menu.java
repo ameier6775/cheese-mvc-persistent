@@ -20,7 +20,9 @@ public class Menu {
 
     @ManyToMany
     private List<Cheese> cheeses;
-    private Cheese item;
+
+
+//    private Cheese item;
 
     public void addItem(Cheese item) { cheeses.add(item); }
 

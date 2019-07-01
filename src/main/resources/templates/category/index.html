@@ -8,8 +8,6 @@
 
 <nav th:replace="fragments :: navigation"></nav>
 
-<div action="/category">
-
 <ul th:each="category : ${categories}">
 
     <li th:text="${category.name}"></li>
